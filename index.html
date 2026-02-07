@@ -1,0 +1,976 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hadi | sass project</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="toup hide" id="arr">
+      <a href="#">
+        <svg>
+          <use href="./svg/sprite.svg#icon-arrowup"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="nav-wrapper" id="nav-wrapper"></div>
+    <nav class="nav margin-bottom-large container" id="nav">
+      <a href="#" class="nav__logo">
+        <svg><use href="svg/sprite.svg#icon-logo"></use></svg>
+      </a>
+
+      <input type="checkbox" class="nav__checkbox" id="nav-toggle" />
+
+      <label for="nav-toggle" class="nav__button" id="nav-mobile">
+        <span class="nav__icon">&nbsp;</span>
+      </label>
+      <ul class="nav__links">
+        <li class="nav__link nav__link--active">Home</li>
+        <li class="nav__link">Features</li>
+        <li class="nav__link">Pages</li>
+        <li class="nav__link">support</li>
+      </ul>
+      <div class="nav__log">
+        <a href="#" class="nav__log-link">Sign in</a>
+        <a href="#" class="nav__log-link nav__log-link--color">Sign up</a>
+      </div>
+    </nav>
+
+    <div class="header__background">
+      <svg class="header__background--shape">
+        <use href="./svg/sprite.svg#header-blue-back"></use>
+      </svg>
+      <img class="header-woman" src="./img/hero.png" alt="picture of a woman" />
+      <svg class="header-wave">
+        <use href="./svg/sprite.svg#wave-shape"></use>
+      </svg>
+      <svg class="header-blue">
+        <use href="./svg/sprite.svg#1/4-circle-blue"></use>
+      </svg>
+      <svg class="header-yellow">
+        <use href="./svg/sprite.svg#1/4-circle-yellow"></use>
+      </svg>
+    </div>
+    <header class="header margin-top-2xl container">
+      <div class="header__content">
+        <h1 class="header__title">
+          We specialize in UI/UX, Web Developmen, Digital Marketing.
+        </h1>
+        <p class="header__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+          fringilla magna mauris. Nulla fermentum viverra sem eu rhoncus
+          consequat varius nisi quis, posuere magna.
+        </p>
+        <div class="header__cta">
+          <a href="#" class="header__cta-link btn btn--blue">Get Started Now</a>
+          <h4 class="header__cta-contact">Call us (0123) 456 - 789</h4>
+          <p class="header__cta-text">For any question or concern</p>
+        </div>
+      </div>
+      <div class="header__img"></div>
+    </header>
+    <section class="pros margin-top-3xl container">
+      <div class="pros__support">
+        <div class="pros__icon pros__icon--support">
+          <svg>
+            <use href="./svg/sprite.svg#icon-support"></use>
+          </svg>
+        </div>
+        <h3 class="pros__title">24/7 Support</h3>
+        <p class="pros__text">
+          Lorem ipsum dolor sit amet conse adipiscing elit.
+        </p>
+      </div>
+
+      <div class="pros__owner">
+        <div class="pros__icon pros__icon--owner">
+          <svg>
+            <use href="./svg/sprite.svg#icon-earth"></use>
+          </svg>
+        </div>
+        <h3 class="pros__title">Take Ownership</h3>
+        <p class="pros__text">
+          Lorem ipsum dolor sit amet conse adipiscing elit.
+        </p>
+      </div>
+
+      <div class="pros__team">
+        <div class="pros__icon pros__icon--team">
+          <svg>
+            <use href="./svg/sprite.svg#icon-team"></use>
+          </svg>
+        </div>
+        <h3 class="pros__title">Team Work</h3>
+        <p class="pros__text">
+          Lorem ipsum dolor sit amet conse adipiscing elit.
+        </p>
+      </div>
+    </section>
+    <section class="why margin-top-2xl container">
+      <div class="why__imgs">
+        <div class="why__imgs-left">
+          <div class="why__img why__img-1">
+            <img
+              src="./img/about-01.png"
+              alt="Women working with their laptop"
+            />
+          </div>
+          <div class="Why__img why__img-2">
+            <img
+              src="./img/about-02.png"
+              alt="Women working with their laptop"
+            />
+          </div>
+        </div>
+
+        <div class="why__imgs-right">
+          <div class="why__img why__img-3">
+            <img
+              src="./img/about-03.png"
+              alt="Women working with their laptop"
+            />
+          </div>
+        </div>
+
+        <svg class="why__wave">
+          <use href="./svg/sprite.svg#wave-shape"></use>
+        </svg>
+        <svg class="why__yellow">
+          <use href="./svg/sprite.svg#1/2-circle-yellow"></use>
+        </svg>
+        <svg class="why__blue">
+          <use href="./svg/sprite.svg#1/2-circle-blue"></use>
+        </svg>
+      </div>
+      <div class="why__content">
+        <h4 class="why__content--title">WhyChoos us</h4>
+        <h2 class="why__content--header">
+          We Make Our customers happy by giving Best services.
+        </h2>
+        <p class="why__content--text">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum.
+        </p>
+        <div class="why__content--see">
+          <div class="why__content--play">
+            <span class="icon-play"></span>
+            <span class="play-effect"></span>
+          </div>
+
+          <p>see how we work</p>
+        </div>
+      </div>
+    </section>
+    <section class="team margin-top-2xl">
+      <svg class="team__circle">
+        <use href="./svg/sprite.svg#empty-circle"></use>
+      </svg>
+      <svg class="team__tri-r">
+        <use href="./svg/sprite.svg#triangle-pink"></use>
+      </svg>
+      <svg class="team__tri-o">
+        <use href="./svg/sprite.svg#triangle-orange"></use>
+      </svg>
+      <div class="team__content margin-bottom-2x">
+        <h2 class="team__title margin-bottom-md">
+          Meet With Our Creative Detected Team
+        </h2>
+        <p class="team__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis
+          tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in
+          maximus.
+        </p>
+      </div>
+
+      <div class="team__gallery">
+        <div class="team__gallery-container">
+          <div class="team__gallery-img">
+            <img
+              src="./img/team-01.png"
+              alt="A picture of one of our teamates"
+            />
+            <div class="team__gallery-overlay">
+              <div class="team__gallery-icons">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-facebook"></use>
+                </svg>
+                <svg>
+                  <use href="./svg/sprite.svg#icon-twitter"></use>
+                </svg>
+                <svg>
+                  <use href="./svg/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="team__gallery-info">
+            <h4>Olivia Andrium</h4>
+            <p>Product Manager</p>
+          </div>
+        </div>
+
+        <div class="team__gallery-container">
+          <div class="team__gallery-img">
+            <img
+              src="./img/team-02.png"
+              alt="A picture of one of our teamates"
+            />
+            <div class="team__gallery-overlay">
+              <div class="team__gallery-icons">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-facebook"></use>
+                </svg>
+                <svg>
+                  <use href="./svg/sprite.svg#icon-twitter"></use>
+                </svg>
+                <svg>
+                  <use href="./svg/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="team__gallery-info">
+            <h4>Jemse Kemorun</h4>
+            <p>Product Designer</p>
+          </div>
+        </div>
+
+        <div class="team__gallery-container">
+          <div class="team__gallery-img">
+            <img
+              src="./img/team-03.png"
+              alt="A picture of one of our teamates"
+            />
+            <div class="team__gallery-overlay">
+              <div class="team__gallery-icons">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-facebook"></use>
+                </svg>
+                <svg>
+                  <use href="./svg/sprite.svg#icon-twitter"></use>
+                </svg>
+                <svg>
+                  <use href="./svg/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="team__gallery-info">
+            <h4>Avi Pestarica</h4>
+            <p>Web Manager</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quality margin-top-2xl container">
+      <div class="quality__title">
+        <h2 class="margin-bottom-md">
+          We Offer The Best Quality Serviuce for You
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis
+          tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in
+          maximus.
+        </p>
+      </div>
+
+      <div class="quality__items">
+        <div class="quality__items-item">
+          <img src="./svg/icon-chart.svg" alt="an icon of a chart" />
+
+          <h4>Crafted for Startups</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor.
+          </p>
+        </div>
+        <div class="quality__items-item">
+          <img
+            src="./svg/icon-layers.svg"
+            alt="an icon of layers lay on each other"
+          />
+
+          <h4>High-quality Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor.
+          </p>
+        </div>
+        <div class="quality__items-item">
+          <img src="./svg/icon-planner.svg" alt="an icon af a planner" />
+
+          <h4>All Essential Sections</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor.
+          </p>
+        </div>
+        <div class="quality__items-item">
+          <img src="./svg/icon-optimizer.svg" alt="an icon of an opitmizer" />
+
+          <h4>Speed Optimized</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor.
+          </p>
+        </div>
+        <div class="quality__items-item">
+          <img
+            src="./svg/icon-layers.svg"
+            alt="an icon of layers lay on each other"
+          />
+
+          <h4>Fully Customizable</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor.
+          </p>
+        </div>
+        <div class="quality__items-item">
+          <img src="./svg/icon-planner.svg" alt="an icon af a planner" />
+
+          <h4>Regular Updates</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            convallis tortor.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="prices margin-top-2xl">
+      <svg class="prices__circle-y">
+        <use href="./svg/sprite.svg#1/2-circle-yellow"></use>
+      </svg>
+      <svg class="prices__circle-b">
+        <use href="./svg/sprite.svg#1/2-circle-blue"></use>
+      </svg>
+      <svg class="prices__wave">
+        <use href="./svg/sprite.svg#wave-shape"></use>
+      </svg>
+      <div class="prices__content">
+        <h2>We Offer Great Affordable Premium Prices.</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using.
+        </p>
+
+        <div class="bill-type margin-top-lg margin-bottom-lg">
+          <span>Bill Monthly</span>
+          <label class="switch">
+            <input type="checkbox" id="checkbox" />
+            <span class="slider"></span>
+          </label>
+          <span>Bill Annualy</span>
+        </div>
+      </div>
+
+      <div class="prices__plans">
+        <div class="prices__plan">
+          <h4 class="prices__plan-title margin-bottom-md">Starter</h4>
+          <p class="prices__plan-payment prices__plan-payment-month">
+            <span id="price" class="prices__plan-price">$29</span
+            ><span>/per</span><span id="long">month</span>
+          </p>
+
+          <p class="prices__plan-payment prices__plan-payment-year hide">
+            <span id="price" class="prices__plan-price">$149</span
+            ><span>/per</span><span id="long">year</span>
+          </p>
+
+          <p class="prices__plan-credit">No credit card required</p>
+          <a href="#" class="prices__plan-cta">Try for free</a>
+          <ul class="prices__plan-properties margin-bottom-lg">
+            <li class="prices__plan-property">400 GB Storaget</li>
+            <li class="prices__plan-property">Unlimited Photos & videos</li>
+            <li class="prices__plan-property">Exclusive Support</li>
+          </ul>
+          <p class="prices__plan-trial">7-day free trial</p>
+        </div>
+
+        <div class="prices__plan">
+          <h4 class="prices__plan-title margin-bottom-md">Growth Plan</h4>
+          <p class="prices__plan-payment prices__plan-payment-month">
+            <span id="price" class="prices__plan-price">$59</span
+            ><span>/per</span><span id="long">month</span>
+          </p>
+
+          <p class="prices__plan-payment prices__plan-payment-year hide">
+            <span id="price" class="prices__plan-price">$608</span
+            ><span>/per</span><span id="long">year</span>
+          </p>
+          <p class="prices__plan-credit">No credit card required</p>
+          <a href="#" class="prices__plan-cta prices__plan-cta-blue"
+            >Try for free</a
+          >
+          <ul class="prices__plan-properties margin-bottom-lg">
+            <li class="prices__plan-property">400 GB Storaget</li>
+            <li class="prices__plan-property">Unlimited Photos & videos</li>
+            <li class="prices__plan-property">Exclusive Support</li>
+          </ul>
+          <p class="prices__plan-trial">7-day free trial</p>
+        </div>
+
+        <div class="prices__plan">
+          <h4 class="prices__plan-title margin-bottom-md">Business</h4>
+          <p class="prices__plan-payment prices__plan-payment-month">
+            <span id="price" class="prices__plan-price">$139</span
+            ><span>/per</span><span id="long">month</span>
+          </p>
+
+          <p class="prices__plan-payment prices__plan-payment-year hide">
+            <span id="price" class="prices__plan-price">$1568</span
+            ><span>/per</span><span id="long">year</span>
+          </p>
+          <p class="prices__plan-credit">No credit card required</p>
+          <a href="#" class="prices__plan-cta">Try for free</a>
+          <ul class="prices__plan-properties margin-bottom-lg">
+            <li class="prices__plan-property">400 GB Storaget</li>
+            <li class="prices__plan-property">Unlimited Photos & videos</li>
+            <li class="prices__plan-property">Exclusive Support</li>
+          </ul>
+          <p class="prices__plan-trial">7-day free trial</p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery margin-top-2xl container">
+      <div class="gallery__content">
+        <h2>We Offer Great Affordable Premium Prices.</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using.
+        </p>
+        <ul>
+          <li>All</li>
+          <li>Brading Strategy</li>
+          <li>Digital Expriences</li>
+          <li>Ecommerce</li>
+        </ul>
+      </div>
+
+      <div class="gallery__images">
+        <div class="gallery__image gallery__image-1">
+          <img src="./img/project-01.png" alt="Photo" />
+          <div class="gallery__image-overlay">
+            <h4>Photo Retouching</h4>
+            <p>Branded Ecommerce</p>
+            <a href="#">&rightarrow;</a>
+          </div>
+        </div>
+        <div class="gallery__image gallery__image-2">
+          <img src="./img/project-02.png" alt="Photo" />
+          <div class="gallery__image-overlay">
+            <h4>Photo Retouching</h4>
+            <p>Branded Ecommerce</p>
+            <a href="#">&rightarrow;</a>
+          </div>
+        </div>
+        <div class="gallery__image gallery__image-3">
+          <img src="./img/project-03.png" alt="Photo" />
+          <div class="gallery__image-overlay">
+            <h4>Photo Retouching</h4>
+            <p>Branded Ecommerce</p>
+            <a href="#">&rightarrow;</a>
+          </div>
+        </div>
+        <div class="gallery__image gallery__image-4">
+          <img src="./img/project-04.png" alt="Photo" />
+          <div class="gallery__image-overlay">
+            <h4>Photo Retouching</h4>
+            <p>Branded Ecommerce</p>
+            <a href="#">&rightarrow;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial margin-top-2xl container">
+      <div class="testimonial__content">
+        <h2>Client's Testimonials</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using.
+        </p>
+      </div>
+
+      <div class="testimonial__clients">
+        <div class="testimonial__client">
+          <span class="blue-border"></span>
+          <span class="pink-border"></span>
+          <div class="testimonial__client-img">
+            <img src="./img/testimonial.png" alt="A Photo of a client" />
+          </div>
+          <div class="testimonial__client-detail">
+            <img
+              class="testimonial__client-quote"
+              src="./svg/icon-quote.svg"
+              alt="an icon of a qoute"
+            />
+            <p class="testimonial__client-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor
+              diam, feugiat quis enim sed, ullamcorper semper ligula. Mauris
+              consequat justo volutpat.
+            </p>
+            <div class="testimonial__client-about">
+              <div class="testimonial__client-name">
+                <p>Devid Smith</p>
+                <p>Founder @democompany</p>
+              </div>
+              <img
+                class="testimonial__client-brand"
+                src="./svg/brand-light-02.svg"
+                alt="An icon of a brand"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial__clients-btn">
+          <a href="#">&leftarrow;</a>
+          <a href="#">&rightarrow;</a>
+        </div>
+      </div>
+    </section>
+    <section class="achievement margin-top-2xl">
+      <svg class="achievement__circle-b">
+        <use href="./svg/sprite.svg#1/2-circle-blue"></use>
+      </svg>
+      <svg class="achievement__circle-empty">
+        <use href="./svg/sprite.svg#empty-circle"></use>
+      </svg>
+      <svg class="achievement__triangle-p">
+        <use href="./svg/sprite.svg#triangle-pink"></use>
+      </svg>
+
+      <div class="achievement__wrapper">
+        <div class="achievement__item">
+          <h2>785</h2>
+          <p>Global Brands</p>
+        </div>
+        <div class="achievement__item">
+          <h2>533</h2>
+          <p>Happy Clients</p>
+        </div>
+        <div class="achievement__item">
+          <h2>865</h2>
+          <p>Winnig Award</p>
+        </div>
+        <div class="achievement__item">
+          <h2>346</h2>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+    </section>
+    <section class="brands margin-top-2xl container">
+      <div class="brands__content">
+        <h2>Trusted by Global Brands</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using.
+        </p>
+      </div>
+
+      <div class="brands__wrapper">
+        <img src="./svg/brand-light-01.svg" alt="Brand" />
+        <img src="./svg/brand-light-02.svg" alt="Brand" />
+        <img src="./svg/brand-light-03.svg" alt="Brand" />
+        <img src="./svg/brand-light-04.svg" alt="Brand" />
+        <img src="./svg/brand-light-05.svg" alt="Brand" />
+        <img src="./svg/brand-light-06.svg" alt="Brand" />
+      </div>
+    </section>
+    <section class="blogs margin-top-2xl container">
+      <div class="blogs__content">
+        <h2>Latest Blogs & News</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using.
+        </p>
+      </div>
+
+      <div class="blogs__wrapper">
+        <div class="blogs__item">
+          <div class="blogs__img">
+            <img src="./img/blog-01.png" alt="A picture for blog" />
+            <div class="blogs__img-overlay">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="blogs__detail">
+            <div class="blogs__detail-title">
+              <div class="blogs__detail-title-name">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-man"></use>
+                </svg>
+                <span>Musharof Chy</span>
+              </div>
+              <div class="blogs__detail-title-date">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-calender"></use>
+                </svg>
+                <span>25 Dec, 2025</span>
+              </div>
+            </div>
+
+            <p class="blogs__detail-text">
+              Free advertising for your online business
+            </p>
+
+            <a href="#" class="blogs__detail-link btn btn--blue">Read More</a>
+          </div>
+        </div>
+
+        <div class="blogs__item">
+          <div class="blogs__img">
+            <img src="./img/blog-02.png" alt="A picture for blog" />
+            <div class="blogs__img-overlay">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="blogs__detail">
+            <div class="blogs__detail-title">
+              <div class="blogs__detail-title-name">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-man"></use>
+                </svg>
+                <span>Musharof Chy</span>
+              </div>
+              <div class="blogs__detail-title-date">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-calender"></use>
+                </svg>
+                <span>25 Dec, 2025</span>
+              </div>
+            </div>
+
+            <p class="blogs__detail-text">
+              9 simple ways to improve your design skills
+            </p>
+
+            <a href="#" class="blogs__detail-link btn btn--blue">Read More</a>
+          </div>
+        </div>
+
+        <div class="blogs__item">
+          <div class="blogs__img">
+            <img src="./img/blog-03.png" alt="A picture for blog" />
+            <div class="blogs__img-overlay">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+
+          <div class="blogs__detail">
+            <div class="blogs__detail-title">
+              <div class="blogs__detail-title-name">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-man"></use>
+                </svg>
+                <span>Musharof Chy</span>
+              </div>
+              <div class="blogs__detail-title-date">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-calender"></use>
+                </svg>
+                <span>25 Dec, 2025</span>
+              </div>
+            </div>
+
+            <a href="#" class="blogs__detail-text">
+              Tips to quickly improve your coding speed.
+            </a>
+
+            <a href="#" class="blogs__detail-link btn btn--blue">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact margin-top-2xl">
+      <svg class="contact__circle-y">
+        <use href="./svg/sprite.svg#1/2-circle-yellow"></use>
+      </svg>
+      <svg class="contact__circle-b">
+        <use href="./svg/sprite.svg#1/2-circle-blue"></use>
+      </svg>
+      <svg class="contact__wave">
+        <use href="./svg/sprite.svg#wave-shape"></use>
+      </svg>
+      <div class="contact__content">
+        <h2>Let’s Stay Connected</h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using.
+        </p>
+      </div>
+
+      <div class="contact__wrapper">
+        <div class="contact__detail">
+          <svg class="contact__detail-circle">
+            <use href="./svg/sprite.svg#1/2-circle-yellow"></use>
+          </svg>
+          <svg class="contact__detail-wave">
+            <use href="./svg/sprite.svg#wave-shape"></use>
+          </svg>
+          <div class="contact__detail-email">
+            <h4>Email Address</h4>
+            <p>support@startup.com</p>
+          </div>
+          <div class="contact__detail-location">
+            <h4>Office Location</h4>
+            <p>76/A, Green valle, Califonia USA.</p>
+          </div>
+          <div class="contact__detail-number">
+            <h4>Phone Number</h4>
+            <p>+009 8754 3433 223</p>
+          </div>
+          <div class="contact__detail-skype">
+            <h4>Skype Email</h4>
+            <p>example@yourmail.com</p>
+          </div>
+
+          <span class="contact__detail-line"></span>
+
+          <div class="contact__detail-social">
+            <h4>Social Media</h4>
+            <div class="contact__detail-social-icon">
+              <a href="#">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+
+              <a href="#">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+
+              <a href="#">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+
+              <a href="#">
+                <svg class="last-icon">
+                  <use href="./svg/sprite.svg#icon-be"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact__form">
+          <form action="#" method="post" class="form" id="form">
+            <div class="form__item">
+              <div class="form__name">
+                <label class="form__name-label label" for="name"
+                  >Full name</label
+                >
+                <input
+                  class="form__name-inp inp"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Device Wonder"
+                />
+              </div>
+              <div class="form__email">
+                <label class="form__email-label label" for="email"
+                  >Email address</label
+                >
+                <input
+                  class="form__email-inp inp"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                />
+              </div>
+            </div>
+
+            <div class="form__item">
+              <div class="form__phone">
+                <label class="form__phone-label label" for="phone"
+                  >Phone number</label
+                >
+                <input
+                  class="form__phone-inp inp"
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="+009 3342 3432"
+                />
+              </div>
+              <div class="form__sub">
+                <label class="form__sub-label label" for="subject"
+                  >Subject</label
+                >
+                <input
+                  class="form__sub-inp inp"
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Type your subject"
+                />
+              </div>
+            </div>
+
+            <div class="form__item">
+              <div class="form__message">
+                <label class="form__message-label label" for="message"
+                  >Message</label
+                >
+                <textarea
+                  class="form__message-inp inp"
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                  rows="4"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="form__item form__item-btn">
+              <button class="form__button btn btn--blue" form="form">
+                Send message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="cta margin-top-2xl">
+      <div class="cta__wrapper">
+        <div class="cta__content">
+          <h2 class="cta__title">
+            Join with 5000+ Startups Growing with Base.
+          </h2>
+          <p class="cta__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis
+            nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis
+            rhoncus.
+          </p>
+        </div>
+        <div class="cta__btn">
+          <a href="#" class="btn">Get Start Now</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer margin-top-2xl">
+      <div class="footer__wrapper">
+        <div class="footer__left">
+          <div class="footer__left-title">
+            <a href="#">
+              <svg>
+                <use href="./svg/sprite.svg#icon-logo"></use>
+              </svg>
+            </a>
+          </div>
+
+          <div class="footer__left-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+
+          <div class="footer__left-logo">
+            <a href="#">
+              <svg>
+                <use href="./svg/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg>
+                <use href="./svg/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg>
+                <use href="./svg/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+            <a href="#">
+              <svg class="footer__icon-be">
+                <use href="./svg/sprite.svg#icon-be"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__item">
+            <h4 class="footer__item-title">Quick Links</h4>
+            <ul class="footer__item-list">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Product </a>
+              </li>
+              <li>
+                <a class="hire" href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h4 class="footer__item-title">Support</h4>
+            <ul class="footer__item-list">
+              <li>
+                <a href="#">Company</a>
+              </li>
+              <li>
+                <a href="#">Press media</a>
+              </li>
+              <li>
+                <a href="#">Our Blog</a>
+              </li>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item footer__item--last">
+            <h4 class="footer__item-title">Newsletter</h4>
+            <p class="footer__item-text">Subscribe to receive future updates</p>
+            <label class="footer__item-label" for="email">
+              <input
+                class="footer__item-inp"
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Email Address"
+              />
+
+              <a href="#" class="footer__item-arr">
+                <svg>
+                  <use href="./svg/sprite.svg#icon-arr"></use>
+                </svg>
+              </a>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__below">
+        <div class="footer__below-left">
+          <a href="#">English</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Support</a>
+        </div>
+        <div class="footer__below-right">
+          <p>&copy; 2025 Base. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

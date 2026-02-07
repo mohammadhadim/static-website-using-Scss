@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  width: 100%;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    &-btn {
+      align-self: center;
+    }
+  }
+
+  .inp {
+    outline: none;
+    padding: 1.4rem 2.4rem;
+    border-radius: 0.8rem;
+    border: 1px solid #d8e1ed;
+    transition: 0.2s;
+    width: 100%;
+    color: $color-gray-light;
+    font-family: $font-primary;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+
+    &:focus {
+      box-shadow: 0 0 0.5rem 0 #bfcaff;
+      border-color: $color-primary;
+    }
+
+    &::placeholder {
+      color: #ddd;
+      font-size: 1.6rem;
+      font-family: $font-primary;
+    }
+  }
+}

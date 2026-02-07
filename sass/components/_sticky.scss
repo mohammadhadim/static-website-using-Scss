@@ -1,0 +1,25 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem !important;
+  background-color: #fff;
+
+  .nav__log-link {
+    color: $color-gray;
+  }
+
+  .nav__log-link--color {
+    color: #fff;
+    background-color: $color-primary;
+  }
+}
+
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 6.6rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}

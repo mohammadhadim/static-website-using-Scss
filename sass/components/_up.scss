@@ -1,0 +1,15 @@
+.toup {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: $color-primary;
+  z-index: 1000;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    fill: #fff;
+  }
+}

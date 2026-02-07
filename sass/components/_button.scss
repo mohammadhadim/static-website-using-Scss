@@ -1,0 +1,22 @@
+.btn {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1.7rem 2.7rem;
+  border-radius: 100000px;
+  color: #fff;
+  transition: all 0.2s;
+  border: none;
+  outline: none;
+
+  &:hover {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+      0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+}
+
+.btn--blue {
+  background-color: $color-primary;
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+}
